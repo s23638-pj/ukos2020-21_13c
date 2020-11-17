@@ -1,4 +1,4 @@
-2020.11.09
+2020.11.17
 Nadrabiając zajęcia z 2020.10.17 nauczyłem się:
 -przede wszystkim podstawowego korzystania z gita (przynajmniej mam nadzieję)
 -zadania ze wstępu do konsoli nie stanowiły dla mnie żadnego problemu
@@ -65,3 +65,44 @@ rmdir -p klamka
 OSTATECZNIE:
 rm klamka/zajecia2.log
 rmdir klamka
+
+
+
+
+
+Na zajęciach z 2020.11.07 nauczyłem się:
+-podstaw praw dostępu
+-że niumiejętne ustawianie uprawnień może grozić nieporządaną interwencją z zewnątrz
+-wykorzystania sysytemu oktalnego w prawach dostępu
+-jak edytować nadawane domyślnie uprawnienia za pomocą polecenia umask
+
+
+Zadanie:
+
+umask
+(0002)
+
+touch 1
+
+umask 000
+
+touch 2
+
+umask 666
+
+touch 3
+
+umask 644
+
+touch 4
+
+umask 777
+
+touch 5
+
+ls -l
+(-rw-rw-r-- 1)
+(-rw-rw-rw- 2)
+(---------- 3)
+(-----w--w- 4)
+(---------- 5)
