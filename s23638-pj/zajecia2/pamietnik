@@ -1,0 +1,5 @@
+Na zajęciach z 2020.11.07 nauczyłem się:
+-podstaw praw dostępu
+-że niumiejętne ustawianie uprawnień może grozić nieporządaną interwencją z zewnątrz
+-wykorzystania sysytemu oktalnego w prawach dostępu
+-jak edytować nadawane domyślnie uprawnienia za pomocą polecenia umask
