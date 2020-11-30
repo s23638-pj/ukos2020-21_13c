@@ -1,0 +1,27 @@
+umask
+(0002)
+
+touch 1
+
+umask 000
+
+touch 2
+
+umask 666
+
+touch 3
+
+umask 644
+
+touch 4
+
+umask 777
+
+touch 5
+
+ls -l
+(-rw-rw-r-- 1)
+(-rw-rw-rw- 2)
+(---------- 3)
+(-----w--w- 4)
+(---------- 5)
