@@ -1,0 +1,29 @@
+mkdir -p ukos/katalog/katalog2
+mkdir ukos/katalog/katalog3
+mkdir ukos/klamka
+
+cd ukos/klamka
+touch zajecia2.txt
+touch zajecia2.log
+touch inny.txt
+touch nowy.txt
+
+cd ..
+mkdir -p to/jest/dluga/nazwa
+
+cd to/jest/dluga/nazwa
+touch dane.txt
+
+cd klamka
+rm *.txt
+
+cd ..
+rmdir katalog/katalog2
+
+(Tu nie dałem rady usunąć jednym poleceniem katalogu klamka razem z zawartością)
+PRÓBY:
+rmdir --ignore-fail-on-non-empty klamka
+rmdir -p klamka
+OSTATECZNIE:
+rm klamka/zajecia2.log
+rmdir klamka
