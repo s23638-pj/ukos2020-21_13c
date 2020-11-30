@@ -1,0 +1,5 @@
+Znak zapytania w kolumnie TTY z tego co rozumiem oznacza że proces nie jest podłączony do żadnego identyfikatora terminala
+
+1.
+ps aux | grep bash
+ps u -U root

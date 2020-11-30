@@ -1,0 +1,4 @@
+ps aux | grep gedit
+kill 1062
+
+(nie mogę użyć komendy kill dla procesów do których nie mam dostępu)
