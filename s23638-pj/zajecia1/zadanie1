@@ -1,0 +1,24 @@
+2. ls
+
+3. cd Desktop
+
+5. pwd
+
+6. ls
+
+7. (Tak wyświetlają się te same pliki)
+
+8. ls /home
+
+9. cd ..
+   cd Pictures
+
+10. pwd
+
+11. (Nic się nie zmieniło)
+
+12. cd /home
+
+13. (Dostałem komunikat o odmowie dostępu, ponieważ nie jestem obecnie rootem)
+
+14. (Wyświetli się karta w "pełnoekranowym terminalu")
