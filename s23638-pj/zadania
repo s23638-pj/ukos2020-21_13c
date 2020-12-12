@@ -1,0 +1,44 @@
+1.
+względna:
+cd ../../../kot/ma/ale/
+
+bezwzględna:
+cd /home/ubuntu/tmp/ukos/kot/ma/ale/
+
+
+2.
+mkdir -p /home/ubuntu/tmp/ukos/kot/ma/ale/jan/kowalski/
+
+
+3.
+mv /home/ubuntu/tmp/ukos/kot/ma/ale/ /home/ubuntu/tmp/ukos/ala/i/
+
+
+4.
+ctrl + z
+
+
+5.
+ls al*
+
+
+6.
+chmod 754 ala
+
+chmod -r-wxt-xr-- ala
+
+
+7.ls > plik.txt
+
+
+8.
+straciłem uprawnienia do zapisywania
+quota została przekroczona
+
+
+9.
+tab
+
+
+10.
+Na końcu polecenia znak & lub ctrl + z
