@@ -1,0 +1,36 @@
+PS C:\Users\krieg> Set-ExecutionPolicy Bypass
+# Polecenie wykonuje się jedynie dla programu z prawami administratora, przy normalnym używaniu mam możliwość tylko odpowiedzieć "No"
+
+Get-Help Set-AppPackageDefaultVolume
+# Urochomiła się instrukcja obsługi komendy (chyba ustawiającej głośność domyślną aplikacji) m.in. Składnia, Opis, Powiązane linki
+
+Get-Help Set-AppPackageDefaultVolume -Examples
+# Przykłady użycia tej komendy
+
+Get-Module -ListAvailable
+# Po chwili pojawia się list dostępnych modułów
+
+Get-Module -ListAvailable | ? {$_.ModuleType -ge "Manifest"}
+# Pojawiają się moduły tylko typu Manifest
+
+#$job = Start-BitsTransfer -Source http://szuflandia.pjwstk.edu.pl/pub/repo/java/lubuntu_13_04_v02.zip -Destination D:\ -Credential $cred -Authentication Negotiate -Asynchronous -DisplayName "Moj Bits Transfer"
+Tutaj na początku nie zauważyłem że plik ma zostać napisany na dysku "D:\" którego nie mam. Po zmianie na C:\Users\krieg\Desktop\ zadziałało
+
+#Get-Alias
+Faktycznie część pokrywa się z komandami unixowymi
+
+& C:\Windows\notepad.exe
+# Uruchamia się notatnik, ale ten sam efekt tutaj otrzymuję bez podania "& " na początku
+
+GiveMePopup -Text "Your cat has meowed!" -Title "Cat Error" -Icon Error
+#Pojawiło się powiadomienie błędu z treścią "Your cat has meowed"
+
+
+
+
+
+
+
+
+
+
